@@ -445,6 +445,7 @@ GameObject:
   - component: {fileID: 1244088214}
   - component: {fileID: 1244088213}
   - component: {fileID: 1244088217}
+  - component: {fileID: 1244088218}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
@@ -555,6 +556,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f378a8b25d500eb4d9841ab730b8319c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Orbits
+--- !u!114 &1244088218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244088212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8569fdad834015e4c983ab44ff1a936d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Orbits
   pivot: {fileID: 1359728491}
@@ -809,3 +822,4 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 1359728491}
   - {fileID: 1836412783}
+  - {fileID: 1244088216}
